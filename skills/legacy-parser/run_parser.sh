@@ -2,7 +2,7 @@ set -euo pipefail
 
 HW3_DIR="$HOME/csce465-agentsec/hw3"
 INBOX="$HW3_DIR/inbox"
-PARSER="$HW3_DIR/legacy_log_parser"
+PARSER="$HW3_DIR/src/legacy_log_parser"
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 <file_path>" >&2
