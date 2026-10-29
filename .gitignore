@@ -1,6 +1,11 @@
+# Compiled executables
+/legacy_log_parser
+/legacy_log_parser_fixed
+
+# Python generated files
 __pycache__/
 *.pyc
-.venv/
-venv/
-.pytest_cache/
-.env
+
+# Temporary runtime files
+/inbox/
+/markers/
