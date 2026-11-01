@@ -1,6 +1,8 @@
 # Compiled executables
 /legacy_log_parser
 /legacy_log_parser_fixed
+/src/legacy_log_parser
+/src/legacy_log_parser_fixed
 
 # Python generated files
 __pycache__/
@@ -9,3 +11,8 @@ __pycache__/
 # Temporary runtime files
 /inbox/
 /markers/
+
+# OpenClaw experiment outputs
+/task2_*.json
+/task2_*.jsonl
+/task2_*.log
